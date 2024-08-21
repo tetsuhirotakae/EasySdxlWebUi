@@ -1,43 +1,24 @@
-# macOS system files
-.DS_Store
-.CFUserTextEncoding
-
 # Python
-__pycache__/
-*.py[cod]
-*$py.class
-venv/
-*.pyc
+   __pycache__/
+   *.py[cod]
+   *$py.class
+   venv/
 
-# IDEs and editors
-.vscode/
+   # macOS
+   .DS_Store
 
-# Personal config files
-.bash_history
-.bash_profile
-.bash_sessions/
-.zshrc
-.ssh/
+   # IDEs
+   .vscode/
 
-# Application data
-.cups/
-.mono/
-.oracle_jre_usage/
+   # Project specific
+   *.log
+   *.csv
+   *.json
+   !requirements.txt
+   !amazon_fee_structure.json
 
-# Project specific
-config.env
-*.log
-*.db
-
-# Directories
-Applications/
-Documents/
-Downloads/
-Library/
-Movies/
-Music/
-Pictures/
-Public/
-
-# Other
-*.dmg
+   # Other
+   *.pdf
+   *.jpg
+   *.png
+   *.webp
