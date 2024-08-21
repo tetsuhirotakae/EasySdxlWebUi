@@ -1,0 +1,43 @@
+# macOS system files
+.DS_Store
+.CFUserTextEncoding
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+*.pyc
+
+# IDEs and editors
+.vscode/
+
+# Personal config files
+.bash_history
+.bash_profile
+.bash_sessions/
+.zshrc
+.ssh/
+
+# Application data
+.cups/
+.mono/
+.oracle_jre_usage/
+
+# Project specific
+config.env
+*.log
+*.db
+
+# Directories
+Applications/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+
+# Other
+*.dmg
