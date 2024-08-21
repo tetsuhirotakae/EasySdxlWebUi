@@ -1,0 +1,188 @@
+{
+    "fee_structure": [
+      {
+        "category": "メディア - 本、DVD、ミュージック、PCソフト、ビデオ",
+        "fee_rate": "15%",
+        "minimum_fee": "該当なし"
+      },
+      {
+        "category": "エレクトロニクス",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "8%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "パソコン・周辺機器",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "8%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "家電アクセサリ",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "楽器およびAV制作機器",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "ドラッグストア",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超え、1,500円以下", "rate": "8%"},
+          {"condition": "商品1点あたりの売上の合計が1,500円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "ビューティ",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超え、1,500円以下", "rate": "8%"},
+          {"condition": "商品1点あたりの売上の合計が1,500円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "健康家電・理美容家電",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "スポーツ&アウトドア",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "カー&バイク用品",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "おもちゃ&ホビー",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "TVゲーム機本体",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "8%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "TVゲーム&ゲーム用アクセサリ",
+        "fee_rate": "15%",
+        "minimum_fee": "該当なし"
+      },
+      {
+        "category": "ペット用品",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超え、1,500円以下", "rate": "8%"},
+          {"condition": "商品1点あたりの売上の合計が1,500円を超える", "rate": "15%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "文房具・オフィス用品",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "15%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "ホーム&キッチン",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "15%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "ホーム&キッチン家電",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "浄水器・整水器",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "家電＆カメラ",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "8%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "大型家電",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "8%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "DIY・工具・ガーデン",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "15%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "産業・研究開発用品",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超える", "rate": "15%"}
+        ],
+        "minimum_fee": "30円"
+      },
+      {
+        "category": "食品&飲料",
+        "fee_rate": [
+          {"condition": "商品1点あたりの売上の合計が750円以下", "rate": "5%"},
+          {"condition": "商品1点あたりの売上の合計が750円を超え、1,500円以下", "rate": "8%"},
+          {"condition": "商品1点あたりの売上の合計が1,500円を超える", "rate": "10%"}
+        ],
+        "minimum_fee": "30円"
+      }
+    ],
+    "default_fee_rate": "10%",
+    "default_minimum_fee": "30円"
+  }
