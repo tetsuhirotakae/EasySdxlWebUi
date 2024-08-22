@@ -24,4 +24,4 @@ Thumbs.db
 
 # Project specific
 amazon_profit_env/
-" > .gitignore
+" > .gitignoreconfig.env
