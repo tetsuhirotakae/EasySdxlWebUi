@@ -11,7 +11,6 @@ import sqlite3
 from dotenv import load_dotenv
 from tqdm import tqdm
 import argparse
-
 # Load environment variables
 load_dotenv('config.env')
 
