@@ -1,24 +1,37 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # Python
-   __pycache__/
-   *.py[cod]
-   *$py.class
-   venv/
+__pycache__/
+*.py[cod]
+*$py.class
 
-   # macOS
-   .DS_Store
+# Virtual environments
+venv/
+*.venv
+env/
+amazon_profit_env/
 
-   # IDEs
-   .vscode/
+# IDEs
+.vscode/
+*.sublime-project
+*.sublime-workspace
 
-   # Project specific
-   *.log
-   *.csv
-   *.json
-   !requirements.txt
-   !amazon_fee_structure.json
+# Project specific
+*.log
+*.csv
+*.json
+!amazon_fee_structure.json
+config.env
+!config.env.sample
+*.db
 
-   # Other
-   *.pdf
-   *.jpg
-   *.png
-   *.webp
+# Keep important files
+!requirements.txt
+!setup_environment.sh
